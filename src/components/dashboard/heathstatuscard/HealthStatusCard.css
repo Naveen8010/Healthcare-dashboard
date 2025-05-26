@@ -1,0 +1,72 @@
+.health-status-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.health-card {
+   background-color: #e7eaf1;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 6.5rem;
+}
+
+.health-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.organ-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.health-date {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.status-bar {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 6px;
+  background-color: #e0e0e0; 
+  border-radius: 4px;
+  overflow: hidden; 
+}
+
+.status-bar-fill {
+  height: 100%;
+  width: 70%; 
+  background-color: green; 
+  border-radius: 4px 0 0 4px; 
+  transition: width 0.3s ease; 
+}
+@media screen and (max-width:1024px) {
+ .health-status-container{
+  width:40%
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .health-status-container{
+  width:40%
+ }
+}
+
+@media screen and (max-width:450px) {
+   .health-status-container {
+    display: none;
+  } 
+} 

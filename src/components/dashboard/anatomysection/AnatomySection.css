@@ -1,0 +1,35 @@
+.anatomy-container {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background-color: #e7eaf1;
+  border-radius: 1rem;
+  text-align: center;
+  box-sizing:content-box;
+  height:25rem ;
+}
+
+.anatomy-image {
+  width: 280px;
+  height: 100%;
+} 
+@media screen and (max-width:1024px){
+  .anatomy-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .anatomy-container {
+    width: 60%;
+  }
+}
+@media screen and (max-width:450px) {
+   .anatomy-container {
+      width: 100%;
+  } 
+  .anatomy-image{
+    width: auto;
+    height: auto;
+  }
+} 
