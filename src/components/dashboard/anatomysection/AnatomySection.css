@@ -24,12 +24,12 @@
     width: 60%;
   }
 }
-@media screen and (max-width:450px) {
+ @media screen and (max-width:450px) {
    .anatomy-container {
       width: 100%;
   } 
   .anatomy-image{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
-} 
+}  
